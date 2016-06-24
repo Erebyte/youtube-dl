@@ -1,9 +1,16 @@
 body {
-    background: #fffae6; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#fffae6, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#fffae6, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#fffae6, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#fffae6, white); /* Standard syntax */
+	background: #fffae6; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#fffae6, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fffae6, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fffae6, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fffae6, white); /* Standard syntax */
+
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
 }
 
 .title {
@@ -25,10 +32,45 @@ body {
 	text-align: center;
 }
 
+.button {
+	background-color: #61d161;
+	border: 2px solid #61d161;
+	color: white;
+	padding: 5px 32px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+.button:hover {
+	background-color: #227722;
+	border: 2px solid #61d161;
+}
+
 #titles {
 	padding: 10px;
 	margin-right: 40px;
 }
 #logos {
 	margin-left: 20px;
+}
+
+#navi {
+	text-align: center;
+}
+#navi table {
+	margin: 0 auto;
+}
+
+#body-text {
+	text-align: left;
+	margin-left: 20px;
+}
+#body-text p {
+	margin-left: 40px;
 }
