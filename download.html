@@ -47,7 +47,7 @@ function httpGet(theUrl){
     {
         if (xmlhttp.readyState==4 && xmlhttp.status==200)
         {
-            createDiv(xmlhttp.responseText);
+            return xmlhttp.responseText;
         }
     }
     xmlhttp.open("GET", theUrl ,true);
