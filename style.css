@@ -28,8 +28,28 @@ footer {
 	color: black;
 }
 
-.disc {
+.body-disc {
 	text-align: center;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 320px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
 }
 
 .button {
