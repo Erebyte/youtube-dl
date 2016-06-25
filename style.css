@@ -28,10 +28,6 @@ footer {
 	color: black;
 }
 
-.body-disc {
-	text-align: center;
-}
-
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
@@ -72,6 +68,11 @@ div.desc {
 	border: 2px solid #61d161;
 }
 
+p#desc {
+	margin: 0 auto;
+	width: 75%;
+}
+
 #titles {
 	padding: 10px;
 	margin-right: 40px;
@@ -93,4 +94,8 @@ div.desc {
 }
 #body-text p {
 	margin-left: 40px;
+}
+#body-text ul {
+	margin-left: 60px;
+
 }
