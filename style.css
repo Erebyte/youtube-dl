@@ -12,6 +12,9 @@ footer {
 	text-align: center;
 	font-size: 12px;
 }
+footer img {
+	padding: 5px;
+}
 
 .title {
 	text-decoration: none;
