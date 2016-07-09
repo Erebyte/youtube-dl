@@ -5,17 +5,23 @@
 	<title>youtube-dl GUI</title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="res/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-<!--noscript><div style="display:inline;color:#ff0000;
+<script type="text/javascript">
+function object_heightFix(obj) {
+	obj.height = obj.contentDocument.body.scrollHeight;
+	// console.log(obj.contentDocument.body.scrollHeight)
+}
+</script>
+<noscript><div style="display:inline;color:#ff0000;
  background-color:#ffff66; font:normal 11px tahoma,sans-serif;">
- <br>Javascript is required to use this page.<br>
- Yours seems to be disabled.</div></noscript-->
+ <br>You need javascript enabled to view this page properly.<br>
+ Yours seems to be disabled.</div></noscript>
 
 <header>
-<object data="res/header.html" onload="this.height=this.contentDocument.body.scrollHeight;" width="100%" ></object>
+<object data="res/header.html" onload="object_heightFix(this);" width="100%" ></object>
 </header>
 
 <section>
@@ -34,6 +40,6 @@
 </body>
 
 <footer>
-<div w3-include-HTML="https://erebyte.github.io/youtube-dl/res/footer.html"></div>
+<object data="res/footer.html" onload="object_heightFix(this);" width="100%" ></object>
 </footer>
 </html>
