@@ -1,0 +1,56 @@
+.button {
+	background-color: #61d161;
+	border: 2px solid #61d161;
+	color: white;
+	padding: 5px 32px;
+	border-radius: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+
+	-webkit-transition: background-color 0.2s, border 0.5s; /* Safari */
+    transition: background-color 0.2s, border 0.5s;
+}
+.button:hover {
+	background-color: #227722;
+	border: 2px solid #61d161;
+}
+
+#title {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 40px
+}
+#title a:link { text-decoration: none; color: black;}
+#title a:visited { text-decoration: none; color: black;}
+#title a:active { text-decoration: none; color: black;}
+
+#subtitle {
+	text-align: center;
+	color: black;
+}
+
+#titles {
+	padding: 10px;
+	margin-right: 40px;
+}
+
+#logos {
+	margin-left: 20px;
+}
+
+#navi {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#footer {
+	text-align: center;
+	font-size: 12px;
+}
+#footer img {
+	padding: 5px;
+}

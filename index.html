@@ -1,41 +1,30 @@
 <!DOCTYPE html>
 <html>
+<!--script src="https://erebyte.github.io/youtube-dl/res/w3data.js"></script-->
 <head>
 	<title>youtube-dl GUI</title>
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<script src="https://erebyte.github.io/youtube-dl/res/w3data.js"></script>
 <body>
 
+<script type="text/javascript">
+function object_heightFix(obj) {
+	obj.height = obj.contentDocument.body.scrollHeight;
+	// console.log(obj.contentDocument.body.scrollHeight)
+}
+</script>
+<noscript><div style="display:inline;color:#ff0000;
+ background-color:#ffff66; font:normal 11px tahoma,sans-serif;">
+ <br>You need javascript enabled to view this page properly.<br>
+ Yours seems to be disabled.</div></noscript>
+
 <header>
-<!-- <table><tr>
-<td><div id='titles'>
-	<table>
-		<tr><td class='title'><a href="https://erebyte.github.io/youtube-dl/">youtube-dl GUI</a></td></tr>
-		<tr><td class='subtitle'>A simple Gui built over great Api.</td></tr>
-	</table>
-</div></td>
-<td><div id='logos'>.</div></td>
-</tr></table>
-<hr> -->
-<div w3-include-HTML="./res/header.html"></div>
+<object data="res/header.html" onload="object_heightFix(this);" width="100%" ></object>
 </header>
 
-<nav>
-</nav>
-
-<div id='navi'>
-<table><tr>
-<td><a href="https://erebyte.github.io/youtube-dl/" class='button'>Home</a></td>
-<td><a href="about.html" class='button'>About</a></td>
-<td><a href="download.html" class='button'>Download</a></td>
-<!-- <td><a href="#">Documentation</a></td> -->
-</tr></table>
-</div>
-
+<section>
 <div class='body'>
 	<p id='desc'><i>youtube-dl GUI</i> is a user interface built on top of the <a href='https://rg3.github.io/youtube-dl/'>youtube-dl</a> and <a href='http://np1.github.io/pafy/'>pafy</a> api. Used to search for and download specific videos off youtube and convert them to mp3 (other formats avalable in future releases). Includes playlist support.</p>
 </div>
@@ -46,13 +35,11 @@
   </a>
   <div class="desc">Youtube-dl GUI screenshot.</div>
 </div>
+</section>
 
 </body>
-<footer>
-	<hr>
-	<a target="_blank" href="https://erebyte.github.io/"><img src="https://erebyte.github.io/res/Erebyte_Logo_head.png", width='100'></a>
-	<p>Copyright © 2016, Erebyte Ent., All Rights Reserved</p>
-</footer>
 
-<script>w3IncludeHTML();</script>
+<footer>
+<object data="res/footer.html" onload="object_heightFix(this);" width="100%" ></object>
+</footer>
 </html>
